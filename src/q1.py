@@ -12,3 +12,11 @@ def swap(x, y):
     # Swapping without using a third variable
     x, y = y, x
     result= print("x:", x, "y:", y)
+
+# Task 2
+# Test the function with given inputs
+result1 = swap("Apple", 10)
+print("Result 1:", result1)
+
+result2 = swap(9, 17)
+print("Result 2:", result2)
