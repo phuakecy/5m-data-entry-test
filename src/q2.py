@@ -12,11 +12,4 @@
             lst[i] = replace_val
             
     return lst
-    
-    # Test 1
-print(find_and_replace([1, 2, 3, 4, 2, 2], 2, 5))
-# Output: [1, 5, 3, 4, 5, 5]
-
-# Test 2
-print(find_and_replace(["apple", "banana", "apple"], "apple", "orange"))
-# Output: ['orange', 'banana', 'orange']
+   
